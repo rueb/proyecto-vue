@@ -12,13 +12,19 @@ const router = createRouter({
     {
       path: '/contador',
       name: 'contador',     
-      component: () => import('../components/Contador.vue'),
+      component: () => import('../modules/contador/components/Contador.vue'),
     },
     {
       path: '/lista-de-tareas',
       name: 'ListaDeTareas',     
-      component: () => import('../components/ListaDeTareas.vue'),
+      component: () => import('../modules/listaDeTareas/components/ListaDeTareas.vue'),
     }, 
+    {
+      path: '/registrar',
+      name: 'registrar',     
+      component: () => import('../modules/registro/views/RegistrarView.vue'),
+    }, 
+    //https://www.youtube.com/watch?v=TeCLj-bax54&list=PLg-z1C9R1jutezByZ3WmH8NE_JqYBsDOA&index=6
   ],
 })
 
