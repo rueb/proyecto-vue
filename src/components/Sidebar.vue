@@ -9,6 +9,7 @@
          <li><router-link to="/contador">Contador</router-link></li> 
          <li><router-link to="/lista-de-tareas"> Lista De Tareas</router-link></li>
          <li><router-link to="/registrar"> Registrar</router-link></li>
+         <li><router-link to="/calcular"> Calcular</router-link></li>
         </ul>        
         
     </div>
@@ -29,6 +30,7 @@ const registrarStore = useRegistrarStore();
 watch( () => registrarStore.email,(newValue) => {
     email.value = newValue;
 }); */
+// https://www.youtube.com/watch?v=URLXLBamqBQ&list=PLg-z1C9R1jutezByZ3WmH8NE_JqYBsDOA&index=11
 </script>
 
 <style>

@@ -15,6 +15,7 @@ watch( ()=>props.mensaje,(newValue)=>{
     mensajeRecibido.value = newValue;
 } );
 
+// https://www.youtube.com/watch?v=ow-vkZgRohA&list=PLg-z1C9R1jutezByZ3WmH8NE_JqYBsDOA&index=10
 </script>
 
 <style scoped>

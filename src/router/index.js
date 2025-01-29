@@ -24,6 +24,11 @@ const router = createRouter({
       name: 'registrar',     
       component: () => import('../modules/registro/views/RegistrarView.vue'),
     }, 
+    {
+      path: '/calcular',
+      name: 'calcular',     
+      component: () => import('../modules/calcular/views/CalcularView.vue'),
+    }
     //https://www.youtube.com/watch?v=TeCLj-bax54&list=PLg-z1C9R1jutezByZ3WmH8NE_JqYBsDOA&index=6
   ],
 })
